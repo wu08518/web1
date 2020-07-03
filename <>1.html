@@ -1,0 +1,54 @@
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <title>Sketcher</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<!-- TensorFlow.js script -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+	
+<!-- canvas script -->
+    <script src="fabric.js"></script>
+	
+<!-- main script -->
+    <script src = "main.js" > </script>
+
+    <link rel="stylesheet" type="text/css" href="css/style001.css">
+
+
+    </head>
+
+    <body>
+        <canvas id="canvas" width="300" height="300" class="canvas" style="border:5px solid #f2b090;margin-top:30%;margin-left:185%;"></canvas>
+        <button type="button" class= "button" onclick='predict()' style='margin-left:45%;' disable>done </button>
+        <button type="button" class= "button2" onclick='erase()' style='margin-left:10px;' disable>clear </button>
+        <!-- <button class="button" onclick="tz()">  
+            Done
+       </button> -->
+
+       <!-- <script>
+        function tz(){
+              window.location.href="<>B.html";
+             }
+       </script> -->
+
+
+    </body>
+       <script>
+        console.log('starting');
+        start('en')
+       </script>
+
+
+</html>

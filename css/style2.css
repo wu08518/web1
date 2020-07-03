@@ -1,0 +1,51 @@
+body {
+    background:url("file:///Users/tyyy/Documents/web1/img/bg2.jpg")  no-repeat center center;   
+    background-size:cover;  
+    background-attachment:fixed;  
+    }
+
+.button { 
+    box-shadow:inset 0px 1px 13px -3px #faebdc; 
+    background:linear-gradient(to bottom, #fff4eb 5%, #fcd9b9 100%);
+    background-color:#fff4eb; 
+    border-radius:6px; 
+    border:1px solid #eddfc2; 
+    display:inline-block; 
+    cursor:pointer; 
+    color:#6ca9ff; 
+    font-family:Lithos Pro; 
+    font-size:28px; 
+    font-weight:REGULAR; 
+    padding:9px 34px; 
+    text-decoration:none; 
+    text-shadow:0px 1px 0px #e0d0af;
+    width: 200px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 700px;
+    position: relative;
+ } 
+ .button:hover { 
+    background:linear-gradient(to bottom, #fcd9b9 5%, #fff4eb 100%);
+    background-color:#fcd9b9; 
+}
+.button:active { 
+    position:relative; 
+    top:1px; }
+
+.h1{
+    font-family:Lithos Pro;
+    font-weight:REGULAR;
+    font-size:30px;
+    color:black;
+    margin-top: 200px;
+    margin-left: 650px;
+    }
+.h2{
+    font-family:Lithos Pro;
+    font-weight:bold;
+    font-size:60px;
+    color:black;
+    margin-top: 70px;
+    margin-left: 720px;
+    }

@@ -1,0 +1,10 @@
+hat
+angel
+rain
+face
+sailboat
+flower
+ocean
+tree
+moon
+wine_glass
