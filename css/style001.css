@@ -1,10 +1,10 @@
-body {
+/* body {
     background:url("file:///Users/tyyy/Documents/web1/img/painting.jpg")  no-repeat center center;   
     background-size:cover;  
     background-attachment:fixed;  
-    }
+    } */
 
-.button{ 
+.button1{ 
     box-shadow:inset 0px 2px 8px -5px #fff4d1;
     background:linear-gradient(to bottom, #facd89 5%, #ebb07c 100%); 
     background-color:#facd89; 
@@ -14,26 +14,48 @@ body {
     cursor:pointer; 
     color:#f38150; 
     font-family:Lithos Pro;
-    font-size:23px;
+    font-size:28px;
     font-weight:REGULAR;
     padding:9px 34px;
     text-decoration:none;
     text-shadow:0px 0px 0px #d9d9c1; 
-    margin-top: 10%;
-    margin-left: 45%;
+    position: absolute;
+    top: 520px;
+    margin-left: 40%;
     } 
-.button:hover { 
+.button1:hover { 
     background:linear-gradient(to bottom, #ebb07c 5%, #facd89 100%); 
     background-color:#ebb07c; 
     }
-.button:active { 
-    position:relative; top:1px; 
-    }
+
 .h1{font-family:Lithos Pro;
     font-weight:REGULAR;
     font-size:30px;
     color:#5e4b44;
-    margin-top: 10px;
-    margin-left: 640px;
+    margin-top: 200px;
+    margin-left: 100px;
 }
+
+#button2 { 
+    box-shadow:inset 0px 2px 8px -5px #fff4d1;
+    background:linear-gradient(to bottom, #facd89 5%, #ebb07c 100%); 
+    background-color:#facd89; 
+    border-radius:6px; 
+    border:1px solid #acb090; 
+    display:inline-block; 
+    cursor:pointer; 
+    color:#f38150; 
+    font-family:Lithos Pro;
+    font-size:10px;
+    font-weight:REGULAR;
+    padding:7px 15px 9px 15px;
+    text-shadow:0px 0px 0px #d9d9c1; 
+    position: absolute;
+    top:520px;
+    margin-left: 52%;
+}
+#button2:hover { 
+    background:linear-gradient(to bottom, #ebb07c 5%, #facd89 100%); 
+    background-color:#ebb07c; 
+    }
 
