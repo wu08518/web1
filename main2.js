@@ -232,8 +232,8 @@ function predict(){
     const names = getClassNames(indices)
 
     // console.log(names);
-    if(names =="moon"){
-        document.getElementById("test2").innerHTML="That is moon"; 
+    if(names =="face"){
+        document.getElementById("test2").innerHTML="That is face"; 
    
         setTimeout('window.location.href="<>B.html";',1000);
 

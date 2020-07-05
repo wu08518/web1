@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-/* body {
-    background:url("https://github.com/Lettie123/sketcher/blob/master/bg1.jpg")  no-repeat center center;   
-=======
-body {
-    background:url("https://github.com/Lettie123/web1/img/bg1.jpg")  no-repeat center center;   
->>>>>>> ede3aa739e57359fc2110ea46f5fa785f328a6d7
-    background-size:cover;  
-    background-attachment:fixed;  
-    } */
-
 
 .button {
     box-shadow:inset 0px 0px 14px -3px #ffd7d1; 
@@ -20,15 +9,16 @@ body {
     cursor:pointer; 
     color:#fcd9b6;
     font-family:Lithos Pro; 
-    font-size:28px;
+    src: url('LITHOSPRO-REGULAR.OTF');
+    font-size:180%;
     font-weight:REGULAR; 
     padding:9px 34px; 
     text-decoration:none; 
     text-shadow:0px 1px 0px #d9c1c1;
     width: 200px;
     height: 50px;
-    margin-top: 70px;
-    margin-left: 700px;
+    margin-top: 8%;
+    margin-left: 50%;
     position: relative;
     }
 
@@ -40,21 +30,14 @@ body {
 
 .h1{
     font-family:Lithos Pro;
+    src: url('LITHOSPRO-REGULAR.OTF');
     font-weight:REGULAR;
-    font-size:30px;
+    font-size:290%;
     color:black;
-    margin-top: 200px;
-    margin-left: 650px;
+    margin-top: 20%;
+    margin-left: 48%;
   }
-.h2{
-    font-family:Lithos Pro;
-    font-weight:bold;
-    font-size:60px;
-    color:black;
-    margin-top: 70px;
-    margin-left: 680px;
-    }
-  
+
  
   
 

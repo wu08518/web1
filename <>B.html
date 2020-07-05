@@ -1,6 +1,10 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
         <link rel="stylesheet" type="text/css" href="css/style2.css">
+      
     </head>
 
     <body
@@ -8,18 +12,28 @@
         style=" background-repeat:no-repeat ;
         background-size:100% 100%;
         background-attachment: fixed;">
-        <h1 class= "h1">PLEASE DRAW THE</h1>
-        <h2 class= "h2">Tree</h2>
+        <h1 class= "h1">Good!</h1>
+        <h2 class= "h2">Turn to the second challenge!</h2>
 
+        <script language="javascript">
+            function test(){
+            var url=new Array();
+            url[0]="<>4.html";
+            url[1]="<>5.html";
+            url[2]="<>6.html";
+            var ints=parseInt(Math.random()*(url.length));
+                window.open(url[ints]); 
+            }</script>
+    
         <button class="button" onclick="tz()">  
-            start
-       </button>
-
-       <script>
-        function tz(){
-              window.location.href="<>2.html";
-             }
-       </script>
-
+                 start
+        </button>
+            
+    
+        <script>
+            function tz(){
+            window.location.href="javascript:test()";
+        }
+        </script>
     </body>
 </html>
